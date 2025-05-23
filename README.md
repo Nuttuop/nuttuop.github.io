@@ -2,208 +2,154 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Naitik – Instagram Banners & Social Media Designer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Naitik's Digital Art Space</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
   <style>
-    body {
+    * {
       margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #0d0d0d;
-      color: #e0e0e0;
-      line-height: 1.6;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Orbitron', sans-serif;
+      background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+      color: #fff;
+      overflow-x: hidden;
+      perspective: 1000px;
     }
     header {
-      background: linear-gradient(145deg, #87ceeb, #4aa3d1);
-      padding: 30px 20px;
+      background-color: rgba(0, 0, 0, 0.7);
       text-align: center;
-      border-bottom: 3px solid #2b7ec1;
-      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
-      transform: perspective(600px) rotateX(5deg);
-      transform-style: preserve-3d;
+      padding: 3rem 1rem;
+      animation: fadeInDown 1s ease-in-out forwards;
     }
     header h1 {
-      margin: 0;
-      font-size: 2.8rem;
-      color: #ffffff;
-      text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+      font-size: 3rem;
+      color: #00ffc8;
+      text-shadow: 0 0 10px #00ffc8;
     }
     header p {
       font-size: 1.2rem;
-      color: #e0f0ff;
-      text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+      color: #ccc;
     }
     main {
-      padding: 40px 20px;
-      max-width: 800px;
+      padding: 2rem;
+      transform: rotateY(2deg);
+      animation: slideIn 2s ease-in-out;
+      max-width: 960px;
       margin: auto;
     }
     section {
-      margin-bottom: 40px;
+      margin: 2rem 0;
+      background: rgba(255, 255, 255, 0.05);
+      padding: 2rem;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0, 255, 200, 0.2);
+      backdrop-filter: blur(10px);
+      transform-style: preserve-3d;
     }
     h2 {
-      color: #ffffff;
-      font-size: 1.8rem;
-      border-bottom: 1px solid #333;
-      padding-bottom: 10px;
-      margin-bottom: 15px;
+      color: #00ffc8;
+      margin-bottom: 1rem;
+      text-shadow: 0 0 5px #00ffc8;
     }
     a {
-      color: #87ceeb;
+      color: #00e0ff;
       text-decoration: none;
+      font-weight: bold;
     }
     a:hover {
-      text-decoration: underline;
-    }
-    .contact-info {
-      background-color: #1a1a1a;
-      padding: 20px;
-      border-radius: 10px;
+      text-shadow: 0 0 5px #00e0ff;
     }
     footer {
       text-align: center;
-      padding: 20px;
-      font-size: 0.9rem;
-      color: #777;
-      border-top: 1px solid #333;
+      padding: 2rem;
+      background: #0f0f0f;
+      border-top: 1px solid #222;
+      color: #666;
+    }
+    .logo {
+      width: 80px;
+      height: 80px;
+      margin: auto;
+      display: block;
+      margin-bottom: 1rem;
+      filter: drop-shadow(0 0 5px #00ffc8);
+    }
+    ul {
+      margin-left: 1.5rem;
+    }
+    .price-tag {
+      background: #00ffc8;
+      color: #000;
+      display: inline-block;
+      padding: 0.3rem 0.8rem;
+      border-radius: 10px;
+      font-weight: bold;
+      box-shadow: 0 0 10px #00ffc8;
+    }
+    @keyframes fadeInDown {
+      0% { opacity: 0; transform: translateY(-100px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes slideIn {
+      0% { transform: translateX(-100%) rotateY(30deg); opacity: 0; }
+      100% { transform: translateX(0) rotateY(2deg); opacity: 1; }
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Naitik</h1>
-    <p>Instagram Banner Specialist & Social Media Designer</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1024px-React-icon.svg.png" alt="logo" class="logo">
+    <h1>Welcome to Naitik's Digital Art Space</h1>
+    <p>Where imagination meets innovation — in every pixel</p>
   </header>
-
   <main>
     <section>
       <h2>About Me</h2>
-      <p>Hello! I'm <strong>Naitik</strong>, a passionate designer focused on creating visually striking <strong>Instagram banners</strong> and engaging <strong>social media content</strong> that helps individuals and brands stand out online. With a creative edge and eye for detail, I bring ideas to life and help elevate your digital presence.</p>
+      <p>I'm <strong>Naitik</strong>, a digital designer driven by a passion to create stunning Instagram banners and social media visuals that captivate and inspire. With years of experience working with creators, influencers, and businesses, my art is more than just design—it's a message, a style, and an experience crafted uniquely for each audience.</p>
     </section>
-
     <section>
-      <h2>What I Do</h2>
+      <h2>Services & Pricing</h2>
+      <p>I offer customized Instagram banners and social media graphics with pricing tailored to your influence and reach.</p>
       <ul>
-        <li>Custom Instagram Banners & Highlights</li>
-        <li>Social Media Branding & Layouts</li>
-        <li>Promotional Visuals for Stories & Posts</li>
-        <li>Designs optimized for engagement and shareability</li>
+        <li>Basic Banner (0–5K followers) — <span class="price-tag">$25</span></li>
+        <li>Premium Banner (5K–20K followers) — <span class="price-tag">$35</span></li>
+        <li>Elite Banner (20K+ followers) — <span class="price-tag">$50</span></li>
+      </ul>
+      <p>Each design includes:
+        <ul>
+          <li>High-resolution export</li>
+          <li>2 free revisions</li>
+          <li>Delivery within 48 hours</li>
+        </ul>
+      </p>
+    </section>
+    <section>
+      <h2>Portfolio Highlights</h2>
+      <p>Here are some recent design showcases that clients loved:</p>
+      <ul>
+        <li>Gaming-themed banner for a Twitch streamer (25K followers)</li>
+        <li>Clean, minimalist promo post for a tech brand</li>
+        <li>Vibrant, animated Instagram stories for influencers</li>
       </ul>
     </section>
-
-    <section class="contact-info">
-      <h2>Contact</h2>
-      <p><strong>Instagram:</strong> <a href="https://instagram.com/nuttu.olds" target="_blank">@nuttu.olds</a></p>
-      <p><strong>WhatsApp:</strong> <a href="https://wa.me/66637366351" target="_blank">+66637366351</a></p>
+    <section>
+      <h2>Blog & Thoughts</h2>
+      <p>Art isn’t just about color or shape—it's a visual language. I believe in telling stories that resonate with an audience emotionally. Through contrast, motion, and creative depth, I aim to capture attention in the most saturated digital spaces. In this blog, I will be sharing my thoughts, creative process, behind-the-scenes from my projects, and the latest trends in digital design.</p>
+    </section>
+    <section>
+      <h2>Contact Me</h2>
+      <p>If you're ready to elevate your social media look, let's work together!</p>
+      <p>Instagram: <a href="https://instagram.com/nuttu.olds" target="_blank">@nuttu.olds</a></p>
+      <p>Telegram: <a href="https://t.me/NN7WE" target="_blank">@NN7WE</a></p>
     </section>
   </main>
-
   <footer>
-    &copy; 2025 Naitik. All rights reserved.
+    <p>© 2025 Naitik. All rights reserved.</p>
   </footer>
 </body>
 </html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Naitik – Instagram Banners & Social Media Designer</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #0d0d0d;
-      color: #e0e0e0;
-      line-height: 1.6;
-    }
-    header {
-      background: linear-gradient(145deg, #87ceeb, #4aa3d1);
-      padding: 30px 20px;
-      text-align: center;
-      border-bottom: 3px solid #2b7ec1;
-      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
-      transform: perspective(600px) rotateX(5deg);
-      transform-style: preserve-3d;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2.8rem;
-      color: #ffffff;
-      text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
-    }
-    header p {
-      font-size: 1.2rem;
-      color: #e0f0ff;
-      text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
-    }
-    main {
-      padding: 40px 20px;
-      max-width: 800px;
-      margin: auto;
-    }
-    section {
-      margin-bottom: 40px;
-    }
-    h2 {
-      color: #ffffff;
-      font-size: 1.8rem;
-      border-bottom: 1px solid #333;
-      padding-bottom: 10px;
-      margin-bottom: 15px;
-    }
-    a {
-      color: #87ceeb;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    .contact-info {
-      background-color: #1a1a1a;
-      padding: 20px;
-      border-radius: 10px;
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      font-size: 0.9rem;
-      color: #777;
-      border-top: 1px solid #333;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>Naitik</h1>
-    <p>Instagram Banner Specialist & Social Media Designer</p>
-  </header>
 
-  <main>
-    <section>
-      <h2>About Me</h2>
-      <p>Hello! I'm <strong>Naitik</strong>, a passionate designer focused on creating visually striking <strong>Instagram banners</strong> and engaging <strong>social media content</strong> that helps individuals and brands stand out online. With a creative edge and eye for detail, I bring ideas to life and help elevate your digital presence.</p>
-    </section>
-
-    <section>
-      <h2>What I Do</h2>
-      <ul>
-        <li>Custom Instagram Banners & Highlights</li>
-        <li>Social Media Branding & Layouts</li>
-        <li>Promotional Visuals for Stories & Posts</li>
-        <li>Designs optimized for engagement and shareability</li>
-      </ul>
-    </section>
-
-    <section class="contact-info">
-      <h2>Contact</h2>
-      <p><strong>Instagram:</strong> <a href="https://instagram.com/nuttu.olds" target="_blank">@nuttu.olds</a></p>
-      <p><strong>WhatsApp:</strong> <a href="https://wa.me/66637366351" target="_blank">+66637366351</a></p>
-    </section>
-  </main>
-
-  <footer>
-    &copy; 2025 Naitik. All rights reserved.
-  </footer>
-</body>
-</html>
 
